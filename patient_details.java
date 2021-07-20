@@ -21,7 +21,7 @@ public class patient_details extends bmi {
 	{
 		this.age=age;            //use of "this" keyword.
 		this.name=name;
-		this.gender=gender;
+		this.gender=gender;      //constructor overloading
 		this.points=points;
 	}
 	public void Details_input () {
@@ -35,7 +35,7 @@ public class patient_details extends bmi {
 	     age = sc.nextInt();
 	   
 		}
-	public void display() {
+	public void display() {//method overriding
 		System.out.println("The age is--------------> "+ age);
 		System.out.println("The name is--------------> "+ name);
 		System.out.println("The gender is--------------->  "+ gender);
@@ -55,7 +55,7 @@ public class patient_details extends bmi {
 			  points=(float) 1.5;
 			 // System.out.println(points);
 		  }
-		  else if(gender.equals("male"))
+		  else if(gender.equals("male")) //string handling mechanism
 		  {
 			  points=3;
 			  //System.out.println(points);

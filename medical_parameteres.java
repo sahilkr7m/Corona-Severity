@@ -1,6 +1,6 @@
 package project;
 import java.util.Scanner;
-public class medical_parameteres extends bmi {
+public class medical_parameteres extends bmi { //inheritence
 	String Dyspnea;
 	int N_count;   //Neutrophil count
 	int L_count;	//lymphocyte count

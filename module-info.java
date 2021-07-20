@@ -1,2 +1,0 @@
-module corona_Severity {
-}

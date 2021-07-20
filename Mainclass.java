@@ -69,7 +69,7 @@ public class Mainclass extends Thread{  //multi-threading
 		}
 		else
 		{
-			throw new invalid_input_Exception("invalid");
+			throw new invalid_input_Exception("Something went Wrong");
 		}
 	
 	
